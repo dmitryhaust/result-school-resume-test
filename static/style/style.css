@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #27374D;
+}
+/* -------------------------------------------------- */
+.about-me {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .about-me {
+        display: block;
+    }
+
+    .image {
+        text-align: center;
+    }
+}
+
+.image {
+    margin-bottom: 1em;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 1em;
+    margin-left: 1em;
+
+}
+
+.image img {
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #DDE6ED;
+}
+
+.about {
+    margin: auto 1em;
+    padding: 1em;
+    color: #FFF2F2;
+}
+
+.about h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.about p {
+    margin: 0em;
+    text-indent: 1.5em;
+    line-height: 2em;
+}
+/* -------------------------------------------------- */
+.card {
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: #526D82;
+    border-spacing: 1em;
+    border: none;
+    background-color: #DDE6ED;
+    color: black;
+}
+
+.card h3 {
+    margin-bottom: 1em;
+}
+
+.card li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+/* -------------------------------------------------- */
+.card-exptable {
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: #526D82;
+    border: none;
+    background-color: #DDE6ED;
+    color: black;
+}
+
+.card-exptable table {
+    text-align: left;
+    border-spacing: 20px;
+    margin-left: -1em;
+}
+
+.card-exptable td:hover {
+    border-style: none;
+    border-radius: .25em; 
+    background-color: #27374D;
+    color: #FFF2F2;
+}
+/* -------------------------------------------------- */
+.message {
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #DDE6ED;
+    color: black;
+}
+
+.message h3 {
+    margin-bottom: 1em;
+}
+
+.input-place {
+
+}
+
+.message input {
+    margin-bottom: 1em;
+}
+
+.message textarea {
+    margin-top: 0.5em;
+}
+
+#name, #email, #send {
+    border-style: solid;
+    border-radius: 1em;
+}
+
+#name {
+    text-indent: 0.5em;
+}
+
+#email {
+    text-indent: 0.5em;
+}
+
+#message {
+    resize: none;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: -1em;
+}
+
+#send {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-width: 1px;
+    cursor: pointer;
+    color: #FFF2F2;
+    background-color: #526D82;
+    border: none;
+
+}
+
+#send:hover {
+    opacity: .8;
+}
+/* -------------------------------------------------- */
+.social {
+    margin: 1em;
+    padding: 1em;
+    height: auto;
+    color: #FFF2F2;
+    display: flex;
+}
+
+.social a {
+    text-decoration: none;
+    color: #9ADCFF;
+}
+
+.social img {
+    margin-left: 10px;
+    width: 18.4px;
+}
+
+a:hover {
+    color: #E5E0FF;
+}
+
